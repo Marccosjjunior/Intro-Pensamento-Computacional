@@ -1,0 +1,85 @@
+Introdução a Programação Pensamento Computacional.
+Não se restringe a área da computação.
+É importante escrever para aprender.
+É importante dividir um problema em 4 partes ( se for muito complexo, diminuir sua complexidade em partes e resolvê-las):
+Decomposição: EX; O bolo formado por massa, recheio e cobertura.  Note que o problema do bolo foi segmentado em 3, neste momento não existe ordem específica para fazê-lo, mas na hora de montar o bolo tenho que respeitar a ordem de montagem para que ele tenha coerência. Outro exemplo é antes de montar um quebra-cabeça, caracterizar as peças por partes parecidas para facilitar a montagem do mesmo.
+Reconhecimento de padrões: Buscam identificar padrões ou tendências, similaridades e diferenças em um mesmo contexto ou em contextos distintos.  Pode ser um padrão comportamental como acontece na bolsa de valores quando os acionistas compram e vendem de acordo com o resultado da bolsa.
+Abstração: Tirar um conceito do campo particular e específico e passar para um campo generalista e mais amplo. Como definir os parâmetros de um círculo que servirá não apenas para medir um único círculo como também servirá para os demais. 
+Design de algoritmos: Nesse momento, a gente define passo a passo, através de instruções a solução do problema. O decompomos, reconhecemos os padrões e diferenças, colocamos em um conceito mais generalista e amplo e vamos definir a solução. (criar o algoritmo)
+Definir uma solução – Testar a solução – Aperfeiçoamento da solução (Esse processo é sempre contínuo).
+Habilidades Complementares
+Raciocínio Lógico: Pensamento estruturado que permite encontrar ou determinar uma solução. E quanto mais se treina mais facilidade terá com ele. 
+Esse raciocínio promove o aperfeiçoamento da resolução de um problema, permite determinar pontos de melhoria e refinamento dentro da solução de maneira ponto ou de forma mais geral. Isso permite melhorar o uso de recursos otimizando processos e melhorar códigos e algoritmos simplificando as linhas de código e deixando as funções bem definidas. 
+Pilares de Decomposição:
+Diante de um problema complexo, devemos quebrá-lo em menores problemas os deixando mais fáceis de gerenciar e resolvê-los. 
+Primeiro passo - Análise: Analisar o problema consiste em estudar, explorar e determinar as partes menores que são gerenciáveis. 
+Segundo passo – Síntese: Recompor o problema original, através da reconstituição das partes menores gerenciáveis em um único elemento e de forma coerente. 
+A execução dessas tarefas menores pode ser de maneira sequencial ( quando um problema depende da solução do outro para se resolver) ou paralela (possibilita ter mais eficiência em menos tempo, pois as tarefas são executadas concomitantemente).
+É importante treinar maneiras distintas de resolver os problemas, pois há várias soluções para a mesma situação. 
+Padrões
+Reconhecimento de Padrões
+Tentar reconhecer um modelo base que tenha uma estrutura invariante e tenha repetição. Extraindo suas características para uma classificação de dados. Através das similaridades e diferenças.
+É importante determinar os padrões, pois através deles podemos obter resoluções para problemas diferentes. Podemos classificar os problemas em classes e categorias.
+O computador reconhece os padrões por comparação, com a representação de atributos que inserimos para que ele consiga reconhecer o objeto, armazenando os dados para consultas posteriores e classificá-los. E a partir disso, você terá as regras de decisão.
+Abstração
+Observar um ou mais elementos, avaliando suas características e propriedades em separado Generalização/Abstração, na lógica, é uma operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenômenos similares. Após avaliar e classificar através de suas características é possível identificar os pontos essenciais e separá-los dos detalhes que não sejam exatamente essenciais. 
+Em suma, abstração/generalização, permite que aquilo que você cria, seja estendido para outros cenários, reutilizado na resolução de outros problemas.
+Algoritmos 
+Para que um computador funcione é necessário definir instruções detalhadas para processar os dados. O processo de resolução de problemas utilizando algoritmos é um processo passo a passo que pode ser feito por meio de ferramentas nativas, fluxograma ou pseudocógigo. 
+Construindo um algoritmo:  
+Compreensão do problema - Pontos mais importantes.
+Definição dos dados de entrada - Dados fornecidos e cenário
+Definir processamento - Cálculos e restrições
+Definir dados de saída - Resultado esperado
+Utilizar um método de refinamento, teste e diagnóstico do algoritmo.
+Introdução a Lógica de Programação
+A lógica nos auxilia com a resolução de um problema, de uma questão que foge a uma determinada regra, ou melhor um desvio de percurso, o qual impede de atingir um objetivo com eficiência e eficácia. 
+A lógica é uma operação intelectual que visa determinar o que é verdadeiro ou falso dentro de um contexto de forma coesa. É a organização e planejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa. 
+Técnicas de lógica de programação
+Técnica Linear - Modelo tradicional, não tem vínculos e possui uma estrutura hierárquica, é uma execução sequencial  de uma série de operações com recursos limitados em uma única dimensão. 
+Técnica Estruturada - Tem mais recursos do que a técnica anterior, possuis mais opções de escolha.
+Técnica Modular - Os dados são divididos em partes independentes e controlados por um conjunto de regras. 
+Fundamentos de algoritmos 
+Tipologia e variáveis
+Dados do tipo numérico: Inteiros - números positivos ou negativos que não possuem casas decimais. Reais:  números positivos ou negativos que possuem casas decimais. 
+Caracteres: Letras 
+Dados do Tipo Lógico: Booleanos - Sim ou Não/Verdadeiro ou Falso
+Variáveis: Estrutura mutável que pode ser modificada ao longo da execução do programa e está restrita ao seu tipo de dado. 
+Constante: Valor atribuído a uma variável, mas que permanece o mesmo do início ao fim da execução do programa. 
+Instruções Primitivas
+As instruções primitivas dentro de cada linguagem de programação possuem uma sintaxe particular.
+Estrutura Condicional
+Determina que uma ação vai ser executada a partir de uma condição imposta através da resposta de verdadeiro ou falso. É utilizada com operadores relacionais.
+Estruturas de Repetição
+Quando preciso que parte do meu código seja repetida mais de uma vez, ou seja, vai executar um determinado trecho do programa a partir de uma condição estabelecida. Para isso, também definimos uma condição de parada ou nosso laço/loop seria infinito. 
+A estrutura de repetição promove a redução de linhas de um programa , facilita a compreensão, ajuda a reduzir o erros e quantidades de correções. 
+Ex: 
+Enquanto … faça: O teste lógico ocorre no início do estrutura  - Enquanto a  grama estiver alta eu corto a grama, neste caso o número de repetições é indefinido, ela continuará até que a condição seja atendida. 
+Repita … até:  O teste lógico ocorre no final da estrutura - Procurar artigo, abrir o livro, virar a página, analisar conteúdo. Ou seja, repita até encontrar o artigo.  Neste caso o número de repetições é indefinido
+Para … de … até … faça: O teste lógico ocorre no início do estrutura e ao contrário dos anteriores aqui o teste tem um número de repetições definidas.  Ou seja, já fica estabelecido desde o início quantas vezes a instrução vai se repetir, de 1 a 10.
+Podemos mesclar as estruturas de repetição e utilizá - las uma dentro da outra. 
+Vetores e Matrizes
+Um vetor é caracterizado por uma variável dimensionada com um tamanho pré-fixado. Possibilitando criar uma coleção de variáveis que podem ser identificadas através de um índice.  
+Matriz é uma tabela organizada em linhas e colunas no formato de M e N, onde M representa o números de linhas (horizontal) e N o números  de colunas (vertical).
+Funções 
+Ela vai implicar que um elemento de um conjunto A esteja relacionado a um conjunto B. As funções são blocos de instruções que realizam tarefas específicas reaproveitando código. Eles são identificados por nomes e parâmetros.
+O código fica mais claro e conciso e permite ser reutilizado em outros pontos. 
+Linguagens de Programação
+Linguagem de programação é um método composto por um conjunto de regras sintáticas e semânticas de implementação de um código fonte. Voltada para resolver problemas computacionais como problemas de decisão =  Lógico - sim ou não. Problemas de busca e Problemas de otimização = maximizar ou minimizar uma função buscando sempre o aperfeiçoamento. 
+Como o computador entende o programa? Através de um processo de tradução (compilação) onde a linguagem de alto nível ( código fonte)  é traduzida em linguagem de baixo nível ( linguagem de máquina). 
+Esse processo é realizado de duas formas
+Tradução: que compila o código e o traduz para a linguagem de máquina e permite uma execução mais rápida e programas menores (C + +,  JAVA. )
+Interpretação: que executa diretamente o programa  sem a necessidade de compilar o código fonte, ela tem maior facilidade de programação, maior flexibilidade, porém é mais lenta em sua execução ( JS, PYTHON, RUBY). 
+Características de um programa
+Boas práticas de programação: 
+	Legibilidade: Proporciona facilidade de leitura, compreensão, ortogonalidade (coerência nas instruções) e estruturas mais adequadas.
+Regibilidade: Facilidade e simplicidade de escrita, ortogonalidade, suporte a abstração, reuso do código e código expressivo (+ +).
+Confiabilidade: Faz o que o programa foi programado para fazer,  verificação de tipos, tratar exceções, uso de ponteiros e compatibilidade entre compiladores.
+Custo: Análise de impacto(estou usando meus recursos sabiamente?), treinamento de pessoal (para que eles possam escrever códigos mais eficientes) , codificação, compilação, execução e infra-estrutura. 
+Devemos levar em consideração outras características como: Atualizações, IA, disponibilidade de treinamento, comunidade ativa e adoção pelo mercado.
+Análises de código
+Como o computador analisa o nosso código: 
+	Análise Léxica: Primeira fase de um processo de compilação,  fazendo a leitura do código fonte caracter por caracter, particionar agrupar os caracteres produzindo uma sequência de  elementos denominados tokens. Esses elementos são identificadores, palavras reservadas, números, strings, todo conteúdo que é relevante para execução do nosso programa. Ele também vai eliminar  caracteres em branco, espaços, comentários e tudo que não é necessário para a execução do programa.
+	Análise sintática: Define que o código esteja escrito corretamente dentro de sua regras sintáticas, cada linguagem tem suas próprias regras de sintaxe.
+Análise semântica: É a relação entre significantes e significado, ou seja, quando escrevemos um código podemos escrever uma sintaxe correta, mas o computador não entende porque o seu significado é diferente. Ex: = refere-se a atribuição = = refere-se à comparação. 
+No erro de semântica, o computador não faz o que é esperado.
